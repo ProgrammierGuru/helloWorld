@@ -14,4 +14,8 @@ public class HelloWorld {
 		return this.i;
 	}
 
+	public void setI(int i)
+	{
+		this.i = i;
+	}
 }
