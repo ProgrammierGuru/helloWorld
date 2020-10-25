@@ -4,9 +4,12 @@ public class HelloWorld {
 
 	private int i;
 
+	private String text;
+
 	public HelloWorld()
 	{
 		this.i = 0;
+		this.text = "Hallo";
 	}
 
 	public int getI()
@@ -18,4 +21,15 @@ public class HelloWorld {
 	{
 		this.i = i;
 	}
+
+	public void setText(String text)
+	{
+		this.text = text;
+	}
+
+	public String getText()
+	{
+		return this.text;
+	}
+
 }
