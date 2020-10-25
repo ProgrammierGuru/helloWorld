@@ -9,6 +9,7 @@ public class HelloWorld {
 	public HelloWorld()
 	{
 		this.i = 0;
+		this.text = "Hallo";
 	}
 
 	public HelloWorld(String text)
@@ -26,4 +27,15 @@ public class HelloWorld {
 	{
 		this.i = i;
 	}
+
+	public void setText(String text)
+	{
+		this.text = text;
+	}
+
+	public String getText()
+	{
+		return this.text;
+	}
+
 }
