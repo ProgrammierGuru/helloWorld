@@ -6,6 +6,15 @@ public class HelloWorld {
 
 	private String text;
 
+	public static void main(String[] args)
+	{
+		HelloWorld main = new HelloWorld();
+		main.setI(1);
+		main.getI();
+		main.setText("Text");
+		main.getText();
+	}
+
 	public HelloWorld()
 	{
 		this.i = 0;
